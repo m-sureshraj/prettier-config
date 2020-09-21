@@ -24,7 +24,7 @@ for more information.
 
 ```javascript
 // prettier.config.js
-const sharedConfig = require("@company/prettier-config");
+const sharedConfig = require('@sureshraj/prettier-config');
  
 module.exports = {
   ...sharedConfig,
