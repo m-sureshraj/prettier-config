@@ -3,17 +3,14 @@
   "version": "1.0.0",
   "description": "Shared Prettier config for my projects",
   "scripts": {
-    "prettier": "prettier --config ./index.js --write ./index.js example/**.*"
+    "prettier": "prettier --config ./index.js --write ./index.js"
   },
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "files": ["index.js"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/m-sureshraj/prettier-config.git"
   },
-  "author": "Sureshraj <m.s.suresh100@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.3.2"
