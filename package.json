@@ -16,6 +16,6 @@
   "author": "Sureshraj <m.s.suresh100@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^3.3.2"
+    "prettier": "^3.5.3"
   }
 }
