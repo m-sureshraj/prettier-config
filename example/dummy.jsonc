@@ -1,0 +1,6 @@
+{
+  // this is a comment in JSONC
+  "name": "example",
+  "version": "1.0.0",
+  "description": "This is an example of JSON with comments"
+}
