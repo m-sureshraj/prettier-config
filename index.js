@@ -1,4 +1,8 @@
-module.exports = {
+/**
+ * @see https://prettier.io/docs/configuration
+ * @type {import("prettier").Config}
+ */
+const config = {
   printWidth: 90,
   trailingComma: 'all',
   semi: true,
@@ -8,4 +12,15 @@ module.exports = {
   bracketSpacing: true,
   arrowParens: 'always',
   endOfLine: 'lf',
+
+  overrides: [
+    {
+      files: '*.jsonc',
+      options: {
+        trailingComma: 'none',
+      },
+    },
+  ],
 };
+
+module.exports = config;

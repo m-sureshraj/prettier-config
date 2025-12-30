@@ -6,6 +6,7 @@
     "prettier": "prettier --config ./index.js --write ./index.js example/**.*"
   },
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "index.js"
   ],
@@ -16,6 +17,9 @@
   "author": "Sureshraj <m.s.suresh100@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "prettier": "^3.7.4"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.7.0"
   }
 }
